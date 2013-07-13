@@ -1,0 +1,1 @@
+A English-Chinese dictionary for emacs .
