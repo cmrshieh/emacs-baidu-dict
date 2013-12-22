@@ -6,7 +6,7 @@
 
 (or word (setq word (current-word)))
 
-(shell-command (format "python ~/path-to-dir/bdict.py %s" word)))
+(shell-command (format "python ~/bdict.py %s" word)))
 
 (global-set-key (kbd "C-c d") 'dict-search-wordap)
 
